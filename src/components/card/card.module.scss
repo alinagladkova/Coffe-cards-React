@@ -1,0 +1,35 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 20%;
+  margin: 20px 5px;
+  background-color: #fff8dc;
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+  &__img-wrapper {
+    width: 97%;
+    margin: 5px auto;
+  }
+  &__img {
+  }
+  &__info {
+    margin: 5px;
+  }
+  &__title {
+    font-size: 22px;
+    font-weight: 500;
+  }
+  &__description {
+    margin: 20px auto;
+    color: #241f1a;
+  }
+  &__ingredients {
+    margin: 20px auto;
+    font-style: italic;
+  }
+  &__btn-wrapper {
+    margin-bottom: 10px;
+  }
+}
